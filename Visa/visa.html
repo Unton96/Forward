@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href="Style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="toggle">
+                <i class="fas fa-bars menu"></i>
+            </div>
+            <ul>
+                <li><a href ="../index.html">Home</a></li>
+                <li><a href ="../Attractions/attractions.html">Attractions</a></li>
+                <li><a href ="../Restaurants/restaraunts.html">Restaurants</a></li>
+                <li><a href ="../Hotels/hotels.html">Hotels</a></li>
+                <li><a href ="#">Visa</a></li>
+            </ul>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type = "text/javascript">
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+                })
+                
+            })
+        </script>
+    </body>
+</html>
